@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'MAVEN-HOME'  // Ensure this matches your Jenkins Maven tool configuration
+        maven 'MAVEN_HOME'  // Ensure this matches your Jenkins Maven tool configuration
     }
     stages {
         stage('Clone Repository') {
